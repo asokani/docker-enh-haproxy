@@ -10,4 +10,4 @@ RUN apt-get update && apt-get -y install gettext-base \
     iputils-ping \
     procps
 
-CMD [ "redis-server", "/usr/local/etc/redis/redis.conf" ]
+ENTRYPOINT []
